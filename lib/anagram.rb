@@ -1,7 +1,7 @@
 # Your code goes here!
 class Anagram
-
-def initialize
+attr_accessorword
+def initialize(word)
 
 end
 
