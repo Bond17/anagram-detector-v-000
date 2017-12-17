@@ -7,7 +7,7 @@ def initialize(word)
 end
 
 def match(array)
-@word.split
+  main_word =  @word.split("")
 end
 
 end
