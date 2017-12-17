@@ -13,6 +13,7 @@ def match(array)
       ana_word
     end
   end
+  anagrams.delete(nil)
 end
 
 end
