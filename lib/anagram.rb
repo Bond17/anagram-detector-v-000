@@ -8,8 +8,9 @@ end
 
 def match(array)
   main_word =  @word.split("").sort
-
   anagrams = array.collect do |ana_word|
+
+  end
 end
 
 end
