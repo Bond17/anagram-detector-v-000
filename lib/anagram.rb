@@ -9,7 +9,9 @@ end
 def match(array)
   main_word =  @word.split("").sort
   anagrams = array.collect do |ana_word|
-
+    if ana_word.split("").sort == main_word
+      ana_word
+    end
   end
 end
 
